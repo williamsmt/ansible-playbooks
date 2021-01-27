@@ -1,0 +1,6 @@
+# exclude ansible roles
+roles/*
+!roles/requirements.yml
+collections/*
+!collections/requirements.yml
+*.retry
