@@ -24,8 +24,8 @@
       - openssh-server
     ssh_password: False
     sudo_group: zsudoers
-    local_admins:
-      - { name: 'localadmin', type: 'http', pubkey: 'https://github.com/williamsmt.keys'}
+    local_admin: 'localadmin'
+    local_admin_key_http: 'https://github.com/williamsmt.keys'
     docker_users:
       - localadmin
     install_docker_compose: true
