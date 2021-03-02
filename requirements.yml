@@ -23,4 +23,7 @@ roles:
   - src: https://github.com/williamsmt/ansible-role-docker.git
     version: 21.2.1
     name: ansible-role-docker
+  - src: https://github.com/williamsmt/ansible-role-devtools.git
+    version: 21.2.1
+    name: ansible-role-devtools
 ...

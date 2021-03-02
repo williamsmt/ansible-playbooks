@@ -87,6 +87,7 @@ Playbook | Description
 -------- | -----------
 `deployBase.yml` | Base configuration - installs dependent packages, users, configuration and proxy settings if required
 `deployDocker.yml` | Includes all configuration from `deployBase.yml` and Docker runtime with docker-compose utility
+`deployDevtools.yml` | Deploys a configurable set of development tools and a Docker runtime for unit testing
 
 ### Roles
 
@@ -118,6 +119,7 @@ Role | Repo | Description
 ---- | ---- | -----------
 `ansible-role-common` | [Repo](https://github.com/williamsmt/ansible-role-common) |  Common configuration for new linux hosts
 `ansible-role-docker` | [Repo](https://github.com/williamsmt/ansible-role-docker) | Deploys Docker host and docker-compose utility
+`ansible-role-devtools` | [Repo](https://github.com/williamsmt/ansible-role-devtools) | Deploys configurable set of dev tools and test harnesses
 
 ### Collections
 
